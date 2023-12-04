@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aumento</title>
+  <link rel="stylesheet" href="../css/styleejer.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Aumento de salario</h1>
+  </header>
+  <main>
+    <section class="container">
+      <form action="../index.html" method="dialog" >
+        <label for="salario">
+          <input type="number" id="salario" value="" placeholder="ingrese el salario actual" required>
+        </label>
+        <label for="aument">
+          <input type="number" id="aument" value="" placeholder="ingrese el aumento" required>
+        </label>
+        <div class="botones">
+          <button type="button" class="boton" onclick="ope.aumento()">Aceptar</button>
+          <button type="submit" class="boton">Regresar</button>
+
+        </div>
+        <div id="resp">
+          aqui va a ir la respuesta:
+        </div>
+      </form>
+
+    </section>
+
+  </main>
+  <footer>
+    <h6>Todos los derechos reservados - Daniel Soft.</h6>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

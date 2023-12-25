@@ -1,0 +1,68 @@
+.boton {
+    background: linear-gradient(to bottom, #95a9c5, #4c5e8a);
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.1rem "Press Start 2P", "consolas", sans-serif;
+    padding: 0.5em 1em;
+    letter-spacing: 0.05rem;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.boton:focus {
+    outline: 2px dotted #6693c3;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+#resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 900;
+    background-color: #95a9c5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.botones .draw-border:hover {
+    color: #4c5e8a;
+    border-radius: 10px;
+}
+
+.botones .draw-border:hover::before,
+.botones .draw-border:hover::after {
+    border-color: #4c5e8a;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}

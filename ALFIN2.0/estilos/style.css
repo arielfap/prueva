@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif, ;
+    background-image: url(../img/arte-de-picos-poligonales-neon-3d_7680x4320_xtrafondos.com.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 20px; 
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #35c9d6;
+    text-align: left;
+    margin: 12;
+    padding: 12;
+}
+h6 {
+    color: #aa17cf;
+    text-align: center;
+}
+nav ul li {
+    --c: rgb(28, 224, 238);
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+  footer {
+    background-color: transparent; /*transparent para que el pie de pagina conserve el fondo de toda la pagina*/
+    padding: 10px;
+    text-align: center;
+    
+  }
+  footer h6 {
+    color: white;
+  }
+
+  /*estilo para quitar subrayado*/
+  nav .boton {
+    text-decoration: none; /* Eliminar subrayado */
+  }
+  
+  nav .boton:hover {
+
+    text-decoration: none; /* Eliminar subrayado en hover */
+  }
+  nav .boton {
+  text-decoration: none; /* Eliminar subrayado */
+  color: rgb(52, 210, 222) /* Cambiar color del texto */
+}
+
+nav .boton:hover {
+
+  text-decoration: none; /* Eliminar subrayado en hover */
+  color: black /* Cambiar color del texto en hover */
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   flex-wrap: wrap;
+   max-width: 800px;
+   margin: 10px auto;
+   border-radius: 10px;
+   padding: 20px;
+   font-size: 32px;
+}
+h1{
+    font-family: fantasy;
+    color: #f4f5f6;
+    text-align: center;
+}
+.boton {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #17b2eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.9s ease-in-out;
+    
+}
+.boton:hover {
+    background-color: #148fbb;
+    padding: 10px 20px;
+}
+/* estilos para los formularios */
+input {
+    width: 90%;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+    color:white;
+    background-color: #17b2eb;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+    font-size: 16px;
+  }
+.botones{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-bottom: 5px;
+   
+}
+.ocultar{
+ visibility: hidden;
+}
+  
